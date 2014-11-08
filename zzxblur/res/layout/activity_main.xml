@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/galata" />
+<TextView 
+       android:layout_width="match_parent"
+        android:layout_height="50dp"
+    android:text="asdfasdfds"
+    android:id="@+id/tv_text"
+    android:gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    android:textColor="@android:color/holo_blue_bright"
+    android:textSize="18sp"
+    
+    />
+    <Button
+        android:id="@+id/btn_blur_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_image"
+            android:background="@drawable/background_button"
+        android:text="start blur List" />
+
+    <Button
+        android:id="@+id/dummy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_blur_list"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="Start Blurred Text" />
+
+</RelativeLayout>
